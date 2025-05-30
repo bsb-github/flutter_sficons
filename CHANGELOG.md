@@ -1,3 +1,7 @@
+## 1.2.0 — April 14, 2024
+
+-   Upgrade to SF Symbols 6.0. Minor update to example icons
+
 ## 1.1.2 — April 14, 2024
 
 -   Fixed missing fontFamily and fontPackage in IconData, required by tree shaker in newer versions of Flutter

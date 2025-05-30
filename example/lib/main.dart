@@ -45,49 +45,34 @@ class _MyHomePageState extends State<MyHomePage> {
             mainAxisAlignment: MainAxisAlignment.center,
             children: <Widget>[
               SFIcon(
-                SFIcons.sf_chevron_backward,
+                SFIcons.sf_heart_text_clipboard,
                 fontSize: 40,
                 fontWeight: FontWeight.w100,
               ),
               SFIcon(
-                SFIcons.sf_chevron_backward,
+                SFIcons.sf_figure_run_treadmill,
                 fontSize: 40,
                 fontWeight: FontWeight.w200,
               ),
               SFIcon(
-                SFIcons.sf_chevron_backward,
+                SFIcons.sf_vision_pro_trianglebadge_exclamationmark,
                 fontSize: 40,
                 fontWeight: FontWeight.w300,
               ),
               SFIcon(
-                SFIcons.sf_chevron_backward,
+                SFIcons.sf_steeringwheel_and_hands,
                 fontSize: 40,
                 fontWeight: FontWeight.w400,
               ),
               SFIcon(
-                SFIcons.sf_chevron_backward,
+                SFIcons.sf_square_and_arrow_up,
                 fontSize: 40,
                 fontWeight: FontWeight.w500,
               ),
               SFIcon(
-                SFIcons.sf_chevron_backward,
+                SFIcons.sf_paperplane_fill,
                 fontSize: 40,
                 fontWeight: FontWeight.w600,
-              ),
-              SFIcon(
-                SFIcons.sf_chevron_backward,
-                fontSize: 40,
-                fontWeight: FontWeight.w700,
-              ),
-              SFIcon(
-                SFIcons.sf_chevron_backward,
-                fontSize: 40,
-                fontWeight: FontWeight.w800,
-              ),
-              SFIcon(
-                SFIcons.sf_chevron_backward,
-                fontSize: 40,
-                fontWeight: FontWeight.w900,
               ),
             ],
           ),

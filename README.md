@@ -1,6 +1,6 @@
 # Flutter SFIcon
 
-Render SF Symbols on both platforms simuliar to regular `Icon` widget. Supports weight and latest SF Symbols version 5.1
+Render SF Symbols on both platforms simuliar to regular `Icon` widget. Supports weight and latest SF Symbols version 6.0
 Icons are tree shakable. Keep in mind, that `SFIcon` widget is based on `Text`.
 
 ## Install
@@ -20,8 +20,9 @@ Naming convention for retrieving SF symbol is as follows:
 2. Dots are replaced with underscores.
 
 Examples:
-* SF Symbol `0.circle` is named as `sf_0_circle`
-* SF Symbol `heart.fill` is named as `sf_heart_fill`
+
+-   SF Symbol `0.circle` is named as `sf_0_circle`
+-   SF Symbol `heart.fill` is named as `sf_heart_fill`
 
 ```dart
 import 'package:flutter_sficon/flutter_sficon.dart';
