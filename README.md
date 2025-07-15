@@ -27,7 +27,7 @@ Examples:
 ```dart
 import 'package:flutter_sficon/flutter_sficon.dart';
 
-// use SFSymbol instead of regular Icon widget
+// use SFIcon instead of regular Icon widget
 const SFIcon(
     SFIcons.sf_heart_fill, // 'heart.fill'
     fontSize: 40, // fontSize instead of size

@@ -1,4 +1,8 @@
-## 1.2.0 — April 14, 2024
+## 1.2.1 — July 15, 2025
+
+-   Resolving [#4](https://github.com/gle6as/flutter_sficon/issues/4). Thanks to [just-doit](https://github.com/just-doit)
+
+## 1.2.0 — May 30, 2025
 
 -   Upgrade to SF Symbols 6.0. Minor update to example icons
 
