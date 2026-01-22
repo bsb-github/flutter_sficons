@@ -96,7 +96,7 @@ class SFIcon extends StatelessWidget {
 @staticIconProvider
 class SFIcons {
   static const _kFontFamily = 'sficons';
-  static const _kFontPackage = 'flutter_sficon';
+  static const _kFontPackage = 'flutter_sficons';
 
   // Lazy-initialized map for name-to-IconData lookup
   static Map<String, IconData>? _iconMap;
