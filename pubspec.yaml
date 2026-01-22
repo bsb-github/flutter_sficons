@@ -1,4 +1,4 @@
-name: flutter_sficon
+name: flutter_sficons
 description: "Cross-platform Flutter plugin for rendering tree shakable SF Symbols version 6.0. inside custom widget, based on Text widget."
 version: 1.2.1
 repository: https://github.com/bsb-github/flutter_sficons
