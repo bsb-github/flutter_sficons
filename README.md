@@ -14,6 +14,9 @@ flutter pub add flutter_sficon
 ## How to use
 
 For correct use of flutter tree shaking all icons stored inside `SFIcons` class as static constants.
+
+### Method 1: Using IconData constants
+
 Naming convention for retrieving SF symbol is as follows:
 
 1. SF Symbol name is prefixed with 'sf\_'.
@@ -35,6 +38,29 @@ const SFIcon(
     color: Colors.red,
 );
 ```
+
+### Method 2: Using symbol names (Apple SF Symbols naming)
+
+You can also create icons directly by passing the SF Symbol name as provided by Apple:
+
+```dart
+import 'package:flutter_sficon/flutter_sficon.dart';
+
+// use SFIcon.fromName with the Apple SF Symbol name
+const SFIcon.fromName(
+    'heart.fill',  // Direct Apple SF Symbol name
+    fontSize: 40,
+    fontWeight: FontWeight.bold,
+    color: Colors.red,
+);
+
+// More examples
+const SFIcon.fromName('sun.max.fill', fontSize: 32);
+const SFIcon.fromName('cloud.bolt.rain.fill', fontSize: 32);
+const SFIcon.fromName('paperplane.fill', fontSize: 32);
+```
+
+This approach allows you to use the exact symbol names from Apple's SF Symbols catalog without needing to convert them to the constant naming convention.
 
 ## IMPORTANT
 

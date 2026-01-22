@@ -44,6 +44,8 @@ class _MyHomePageState extends State<MyHomePage> {
           child: const Column(
             mainAxisAlignment: MainAxisAlignment.center,
             children: <Widget>[
+              Text('Using IconData directly:'),
+              SizedBox(height: 8),
               SFIcon(
                 SFIcons.sf_heart_text_clipboard,
                 fontSize: 40,
@@ -59,18 +61,21 @@ class _MyHomePageState extends State<MyHomePage> {
                 fontSize: 40,
                 fontWeight: FontWeight.w300,
               ),
-              SFIcon(
-                SFIcons.sf_steeringwheel_and_hands,
+              SizedBox(height: 24),
+              Text('Using symbol names:'),
+              SizedBox(height: 8),
+              SFIcon.fromName(
+                'sun.max.fill',
                 fontSize: 40,
                 fontWeight: FontWeight.w400,
               ),
-              SFIcon(
-                SFIcons.sf_square_and_arrow_up,
+              SFIcon.fromName(
+                'cloud.bolt.rain.fill',
                 fontSize: 40,
                 fontWeight: FontWeight.w500,
               ),
-              SFIcon(
-                SFIcons.sf_paperplane_fill,
+              SFIcon.fromName(
+                'heart.fill',
                 fontSize: 40,
                 fontWeight: FontWeight.w600,
               ),
