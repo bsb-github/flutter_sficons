@@ -1,4 +1,4 @@
-import 'package:flutter_sficons/flutter_sficon.dart';
+import 'package:flutter_sficon/flutter_sficon.dart';
 import 'package:flutter_test/flutter_test.dart';
 
 void main() {
